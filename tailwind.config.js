@@ -10,7 +10,7 @@ module.exports = {
         128: "32rem",
       },
       width: {
-        128: "94rem",
+        128: "103rem",
       },
       rotate: {
         32: "30deg",

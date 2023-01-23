@@ -1,0 +1,125 @@
+.hamburger svg {
+  font-size: 60px;
+}
+/* ///////////////////////// */
+
+.bgimg {
+  position: absolute;
+  width: 73%;
+  /* height: 999.19px; */
+  left: 290px;
+  margin-left: 120px;
+  /* margin-bottom: 99px;
+  padding-bottom: 99px; */
+  overflow: visible;
+  top: 0px;
+  /* background: url("../../public/images/codeball 1.png"); */
+}
+
+@media (max-width: 1090px) {
+  .bgimg {
+    position: absolute;
+    width: 73%;
+    /* height: 999.19px; */
+    left: 0px;
+    margin-left: 0px;
+
+    top: 190px;
+    /* background: url("../../public/images/codeball 1.png"); */
+  }
+}
+
+.visi {
+  font-size: 200px;
+  text-shadow: 2px 2px 38px rgb(118, 116, 116);
+  height: 300px;
+}
+.visi h1 {
+  font-size: 263px;
+  font-stretch: expanded;
+  text-shadow: 2px 2px 38px rgb(118, 116, 116);
+  /* text-shadow: 1px 1px 2px rgb(135, 134, 134), 0 0 25px rgb(129, 129, 129), 0 0 5px rgb(163, 163, 163); */
+  color: black;
+  transition: 0.5s ease;
+}
+
+/* //;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+.talk {
+  display: none;
+  transition: 0.5s ease;
+}
+
+.visi:hover .talk {
+  display: block;
+  transition: 0.5s ease;
+
+  /* color: red; */
+}
+/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+/* //;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+.hide {
+  display: none;
+  transition: 0.5s ease;
+}
+.ear{
+  font-size: 12px;
+  margin-top: -6;
+}
+
+.logo:hover .hide {
+  display: block;
+  transition: 0.9s ease;
+
+  /* color: red; */
+}
+
+.logo:hover {
+  transform: scaleX(1.2);
+}
+
+/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+.about {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.about::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid rgb(230, 230, 230);
+  width: 40%;
+
+  transition: 0.5s ease;
+}
+
+.gol {
+  /* left: 12cm; */
+  opacity: 0.5;
+}
+.about:hover:after {
+  width: 100%;
+}
+/* kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
+.explore::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid rgb(81, 80, 80);
+  width: 70%;
+
+  transition: 0.5s ease;
+}
+.explore:hover:after {
+  width: 100%;
+}
+
+.check:hover {
+  transform: scale(0.5);
+  transition: all cubic-bezier(0.165, 0);
+}
+
+* {
+  transition: all ease 0.5s;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

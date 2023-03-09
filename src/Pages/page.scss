@@ -1,0 +1,30 @@
+.baorder {
+  height: 20px;
+  width: 100px;
+  opacity: 0.5;
+  border-bottom: 2px solid #4e4949;
+}
+.carousel-container {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.carousel-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100vw / 3);
+  height: 200px;
+  transition: transform 0.5s ease-in-out;
+}
+.cass:hover {
+  transform: scale(1.3);
+  height: 100%;
+
+}

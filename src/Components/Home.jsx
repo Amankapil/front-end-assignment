@@ -3,7 +3,9 @@ import Agency from "./Agency";
 import Build from "./Build";
 import Client from "./Client";
 import Dream from "./Dream";
+import Dummy from "./Dummy";
 import Footer from "./Footer";
+import Footerr from "./footer/footer";
 import Ideas from "./Ideas";
 import Navbar from "./Navbar";
 
@@ -13,11 +15,13 @@ const Home = () => {
       <div>
         <Navbar />
         <Build />
-        <Agency />
+        {/* <Agency /> */}
+        <Dummy />
         <Dream />
         <Client />
         <Ideas />
         <Footer />
+        {/* <Footerr /> */}
       </div>
     </>
   );

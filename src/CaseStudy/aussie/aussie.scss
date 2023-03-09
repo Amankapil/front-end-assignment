@@ -1,0 +1,36 @@
+.imgsh {
+  top: 0;
+}
+
+#imgsss {
+  position: absolute;
+  left: 50px;
+//   top: -100px;
+  background-image: url("../../../public/images/cycle.jpg");
+  background-size: 1680px;
+  width: 45%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: -630px -100px;
+  transition: 0.5s;
+  padding-bottom: 200px;
+}
+@media (max-width: 768px) {
+  #imgsss {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    background-image: url("../../../public/images/cycle.jpg");
+    background-size: 1680px;
+    width: 90%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: -630px -100px;
+    transition: 0.5s;
+    padding-bottom: 200px;
+  }
+}
+
+.leftimg {
+  height: 900px;
+}

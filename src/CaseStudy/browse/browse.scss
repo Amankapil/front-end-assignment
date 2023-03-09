@@ -1,0 +1,45 @@
+.cimg1 {
+//   position: absolute;
+//   left: 0%;
+  top: -100px;
+  background-image: url("../../../public/images/cycle.jpg");
+  background-size: 1300px;
+  width:100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: -500px -100px;
+  transition: 0.5s;
+//   padding-bottom: 200px;
+}
+.cimg2 {
+//   position: absolute;
+//   left: 30%;
+  top: -100px;
+  background-image: url("../../../public/images/shoe.jpg");
+  background-size: 800px;
+  width:100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: -200px -10px;
+  transition: 0.5s;
+//   padding-bottom: 200px;
+}
+.cimg3 {
+//   position: absolute;
+//   left: 06%;
+  top: -100px;
+  background-image: url("../../../public/images/cloth.jpg");
+  background-size: 1080px;
+  width:100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: -530px -100px;
+  transition: 0.5s;
+//   padding-bottom: 200px;
+}
+.cow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

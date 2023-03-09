@@ -1,0 +1,161 @@
+.passs {
+  display: none;
+  width: 22%;
+  margin-left: 350px;
+  margin-top: -130px;
+}
+.circle:hover .passs {
+  display: block;
+}
+
+.Develop {
+  border: 0px solid #0d0d0d;
+  border-radius: 50%;
+  height: 11rem;
+  width: 11rem;
+  // visibility: hidden;
+  opacity: 0;
+}
+.Market {
+  border: 0px solid #0d0d0d;
+  border-radius: 50%;
+  height: 11rem;
+  width: 11rem;
+  // visibility: hidden;
+  opacity: 0;
+}
+.Design {
+  border: 0px solid #0d0d0d;
+  border-radius: 50%;
+  height: 11rem;
+  width: 11rem;
+  // visibility: hidden;
+  opacity: 0;
+}
+
+.hdi {
+  color: #0d0d0d;
+  border: 0px solid #0d0d0d;
+  border-radius: 50%;
+}
+.main {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: 0.5s ease-in-out;
+}
+.main:hover {
+  color: #0d0d0d;
+  border: 1px solid #0d0d0d;
+  border-radius: 50%;
+  transition: 0.2s;
+  transition: 0.5s ease-in-out;
+}
+.circle:hover .main {
+  color: #0d0d0d;
+  border: 1px solid #0d0d0d;
+  border-radius: 50%;
+  transition: 0.2s;
+  transition: 0.5s ease-in-out;
+}
+
+.circle:hover .Design {
+  transform: rotate(-33deg);
+  transform-origin: 105% 0%;
+  border: 2px solid #fff;
+  transition: ease-in-out 0.5s;
+  color: #fff;
+  height: 18rem;
+  width: 18rem;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+}
+.main img svg {
+  background-color: #000;
+  color: #000;
+}
+.yello {
+  position: absolute;
+  display: none;
+  fill: #0d0d0d;
+  background-color: #0d0d0d;
+  color: #0d0d0d;
+  transition: 5s ease;
+}
+.circle:hover .yello {
+  transition: 5s ease;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+.circle:hover .Develop {
+  transform: rotate(41deg);
+  transform-origin: 99% 26%;
+  border: 2px solid #fff;
+  transition: 0.5s ease-in-out;
+
+  color: #fff;
+  height: 18rem;
+  width: 18rem;
+  margin-top: 0px;
+  // visibility: visible;
+  opacity: 1;
+}
+.circle:hover .Market {
+  transform: rotate(9deg);
+  transform-origin: -108% -170%;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+  height: 18rem;
+  width: 18rem;
+  visibility: visible;
+  opacity: 1;
+}
+.produc p {
+  color: #8d8787;
+  font-family: graphik;
+}
+
+.circle:hover .rotate {
+  transform: rotate(32deg);
+  // margin-top: -40px;
+  transition: 0.5s ease-in-out;
+}
+.circle:hover .rotate1 {
+  transform: rotate(-37deg);
+  // margin-top: -40px;
+  transition: 0.5s ease-in-out;
+}
+.circle:hover .rotate2 {
+  transform: rotate(-9deg);
+  // margin-top: -40px;
+  transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .Develop {
+    border: 0px solid #0d0d0d;
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    // visibility: hidden;
+    opacity: 0;
+  }
+  .Market {
+    border: 0px solid #0d0d0d;
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    // visibility: hidden;
+    opacity: 0;
+  }
+  .Design {
+    border: 0px solid #0d0d0d;
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    // visibility: hidden;
+    opacity: 0;
+  }
+}

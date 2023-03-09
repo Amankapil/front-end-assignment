@@ -13,7 +13,7 @@ module.exports = {
         128: "103rem",
       },
       rotate: {
-        32: "30deg",
+        32: "25deg",
       },
     },
   },

@@ -1,0 +1,26 @@
+.leftcontainer {
+  height: 400px;
+  width: 600px;
+  overflow-y: scroll;
+  overflow-y: auto;
+  scroll-behavior: inherit;
+  scrollbar-width: none; /* Firefox */
+}
+.leftcontainer::-webkit-scrollbar {
+  display: none;
+}
+.leftside {
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .leftcontainer {
+    height: 50%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-y: auto;
+  }
+  .leftside {
+    height: 250px;
+  }
+}

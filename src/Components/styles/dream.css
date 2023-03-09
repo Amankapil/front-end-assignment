@@ -1,0 +1,72 @@
+.width {
+  max-width: 1250px;
+}
+.family {
+  font-family: graphik;
+}
+.leftside{
+  width: 90%;
+}
+
+.const {
+  width: 100%;
+}
+
+.our_serives {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .our_serives {
+    width: 75%;
+  }
+}
+
+.experi {
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.experi ul li {
+  text-decoration: none;
+  margin-top: 33px;
+  color: #a0a0a0;
+  font-weight: 100;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-family: graphik;
+  width: 95%;
+}
+
+.experi li:hover {
+  padding-left: 40px;
+  color: white;
+  text-shadow: 0px 0px 20px white;
+}
+
+.fist {
+  text-decoration: none;
+  margin-top: 33px;
+  color: #a0a0a0;
+  font-weight: 200;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 90%;
+}
+
+.fist:hover {
+  padding-left: 40px;
+  color: white;
+  text-shadow: 0px 0px 20px white;
+}
+
+.pe {
+  color: #a0a0a0;
+  width: 100%;
+}
+
+.he {
+  font-size: 80px;
+  font-weight: 300;
+}
+/*# sourceMappingURL=dream.css.map */

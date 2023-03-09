@@ -1,0 +1,14 @@
+.formm {
+  width: 28%;
+}
+.message {
+  width: 64%;
+}
+@media (max-width: 768px) {
+  .formm {
+    width: 100%;
+  }
+  .message {
+    width: 100%;
+  }
+}
